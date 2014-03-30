@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Film</title>
+	<link rel="stylesheet" href="css/style.css" media="screen, projection">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<!-- Debug -->
+<!-- 	<div id="debug">
+	<p id="one">1</p>
+	<p id="two">2</p>
+	<p id="three">3</p>
+</div>	 -->
+	<!-- Debug -->
+	<header>
+		<h1><a href="#">Film</a></h1>
+		<input type="search" placeholder="Search...">
+		<nav class="buttonsNav">
+			<ul>
+				<li class="activeNav"><a href="">Home</a></li>
+				<li><a href="">Download</a></li>
+				<li><a href="">Movies</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="genre">
+		<ul class="genreFilmOuter">
+			<li class="genreFilm" id="horror">
+				<p><a href="">Horror</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li ></li>
+					<li ></li>
+					<li ></li>
+				</ul>
+			</li>
+			<li class="genreFilm" id="fantasy">
+				<p><a href="">Fantasy</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li></li>
+				</ul>
+			</li>
+			<li class="genreFilm" id="comedy">
+				<p><a href="">Comedy</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			<li class="genreFilm" id="drama">
+				<p><a href="">Drama</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li></li>
+				</ul>
+			</li>
+			<li class="genreFilm" id="animation">
+				<p><a href="">Animation</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+				</ul>
+			</li>
+			<li class="genreFilm" id="document">
+				<p><a href="">Document</a></p>
+				<ul>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li class="fillStar"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<section class="movie">
+		<video>
+ 			<source src="">
+		</video>
+	</section>
+	<section class="control">
+		<div id="longSlide">
+			<div id="sliderBtn">
+				<span class="countLgSl"></span>
+			</div>
+		</div>
+
+		<div class="buttonGroup">
+			<div id="prev"><span>Prev</span></div>
+			<div id="center">
+				<span>Download Somthing</span>
+				<ul id="centerList">
+					<li>720p</li>
+					<li>1080p</li>
+					<li>1280p</li>
+				</ul>
+			</div>
+			<div id="next"><span>Next</span></div>
+		</div>
+		
+		<div class="innerControl">
+			<div class="controlButtons">
+				<div id="startBtn" class="offBtn">Start</div>
+				<div id="stopBtn" class="onBtn">Stop</div>
+			</div>
+			<div id="volumeBox">
+				<div id="volumeSlider">
+					<span id="volumeSliderBtn">
+						<span id="volumeBtnPic"></span>
+					</span>
+				</div>
+				<span id="volumeCount"></span>
+			</div>
+			<div id="onOffBtnBoxOuter">
+				<span>On</span>
+				<div id="onOffBtnBox">
+					<div id="onOffBtn" class="btnOff"></div>
+				</div>
+				<span>Off</span>
+			</div>
+		</div>
+
+		<div class="videoBoxes">
+			<div class="videoBoxOuter">
+				<div class="videoBoxOne">
+					
+				</div>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, ratione est saepe beatae modi corporis officiis provident doloribus eos in.</span>
+			</div>
+
+			<div class="videoBoxOuter">
+				<div class="videoBoxTwo">
+					
+				</div>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, iusto, id est consectetur deleniti fugiat quidem saepe aut mollitia nemo?</span>
+			</div>
+			<div class="videoControl">
+				<h3 class="eqHead"></h3>
+				<div class="eq" id="eq1">
+					<div class="eqBtn" id="eq1Btn"></div>
+				</div>
+				<div class="eq" id="eq2">
+					<div class="eqBtn" id="eq2Btn"></div>
+				</div>
+				<div class="eq" id="eq3">
+					<div class="eqBtn" id="eq3Btn"></div>
+				</div>
+				<div class="eq" id="eq4">
+					<div class="eqBtn" id="eq4Btn"></div>
+				</div>
+				<div class="eq" id="eq5">
+					<div class="eqBtn" id="eq5Btn"></div>
+				</div>
+				<div class="eq" id="eq6">
+					<div class="eqBtn" id="eq6Btn"></div>
+				</div>
+				<div class="eq" id="eq7">
+					<div class="eqBtn" id="eq7Btn"></div>
+				</div>
+				<div class="eq" id="eq8">
+					<div class="eqBtn" id="eq8Btn"></div>
+				</div>
+				<div class="eq" id="eq9">
+					<div class="eqBtn" id="eq9Btn"></div>
+				</div>
+				<div class="eq" id="eq10">
+					<div class="eqBtn" id="eq10Btn"></div>
+				</div>
+
+				<a htef="#" id="appStoreBtn"></a>
+				<a htef="#" id="shareBtn"></a>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="media">
+			<ul>
+				<li id="firstKitIco"></li>
+				<li id="videoIco"></li>
+				<li id="lockIco"></li>
+				<li id="paperIco"></li>
+				<li id="MessageIco"></li>
+				<li id="statsIco"></li>
+				<li id="clockIco"></li>
+				<li id="bookmarkIco"></li>
+			</ul>
+		</div>
+		<p>Design by Webvilla.pl 2011</p>
+		<div class="footerNav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Download</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Terms</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
